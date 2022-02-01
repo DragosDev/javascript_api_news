@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NASA API Pictures</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="https://s2.googleusercontent.com/s2/favicons?domain=www.nasa.gov">
+    <link rel="icon" type="image/png" href="favicon.png">
   
     <!-- <link rel="icon" type="image/png" href="favicon.png"> -->
 </head>
@@ -31,8 +31,27 @@
             </span>
         </div>
         <!-- Images Container -->
+        <div class="images-container">
+            <div class="card">
+                <a href="" title="View Full Image" target="_blank">
+                    <img src="https://api.nasa.gov/assets/img/general/apod.jpg" alt="NASA Picture of the day" class="card-img-top">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Title of image</h5>
+                    <p class="clickable">Add to Favorites</p>
+                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti cum laborum debitis exercitationem, fuga temporibus repellat libero perspiciatis voluptatum autem obcaecati laudantium quam. Nostrum deleniti ad quibusdam harum atque aspernatur?</p>
+                    <small class="text-muted">
+                        <strong>12-12-2020</strong>
+                        <span>Copyright Info</span>
+                    </small>
+                </div>
+            </div>
+        </div>
     
     <!-- Save Confirmation -->
+    <div class="save-confirmed" hidden>
+        <h1>Added</h1>
+    </div>
     
     <!-- Script -->
     <script src="script.js"></script>
